@@ -1,0 +1,50 @@
+{
+  "name": "bs-js-beautify",
+  "version": "0.1.0",
+  "description": "BuckleScript bindings for js-beautify library",
+  "main": "src/JsBeautify.bs.js",
+  "files": [
+    "src/*.re",
+    "src/*.ml",
+    "bsconfig.json"
+  ],
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "prepublish": "npm run clean && npm run build",
+    "pretest": "npm run build",
+    "start": "bsb -make-world -w",
+    "test": "TEST=true jest",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erykpiast/bs-js-beautify.git"
+  },
+  "keywords": [
+    "reason",
+    "bucklescript",
+    "bindings",
+    "beautify"
+  ],
+  "author": "Eryk Napierała",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erykpiast/bs-js-beautify/issues"
+  },
+  "homepage": "https://github.com/erykpiast/bs-js-beautify#readme",
+  "peerDependencies": {
+    "js-beautify": "1.x.x",
+    "reason-react": "0.7.x"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "7.8.4",
+    "@glennsl/bs-jest": "0.4.9",
+    "babel-jest": "25.1.0",
+    "bs-platform": "7.1.0",
+    "jest": "25.1.0",
+    "js-beautify": "1.10.3",
+    "reason-react": "0.7.0",
+    "standard-version": "7.1.0"
+  }
+}
