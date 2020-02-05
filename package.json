@@ -22,7 +22,7 @@
     "url": "git+https://github.com/erykpiast/bs-js-beautify.git"
   },
   "keywords": [
-    "reason",
+    "reasonml",
     "bucklescript",
     "bindings",
     "beautify"
