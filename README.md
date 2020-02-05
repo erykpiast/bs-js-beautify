@@ -18,7 +18,7 @@ Then add `bs-js-beautify` as a dependency to `bsconfig.json`.
 ```ocaml
 let uglyCode = "if(window.x){console.log('It is x');}else{console.log('It is not');}"
 in let prettyCode = JsBeautify.beautify ~indent_size:2 uglyCode
-in Js.log prettyCode;
+in Js.log prettyCode;;
 ```
 ```javascript
 if (window.x) {
