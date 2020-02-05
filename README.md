@@ -1,6 +1,5 @@
 # bs-js-beautify
-
-[![Build Status](https://travis-ci.org/erykpiast/bs-js-beautify.svg?branch=master)](https://travis-ci.org/erykpiast/bs-js-beautify)
+[![Build Status](https://travis-ci.com/erykpiast/bs-js-beautify.svg?branch=master)](https://travis-ci.com/erykpiast/bs-js-beautify)
 [![dependencies Status](https://david-dm.org/erykpiast/bs-js-beautify/status.svg)](https://david-dm.org/erykpiast/bs-js-beautify)
 [![Greenkeeper badge](https://badges.greenkeeper.io/erykpiast/bs-js-beautify.svg)](https://greenkeeper.io/)
 
