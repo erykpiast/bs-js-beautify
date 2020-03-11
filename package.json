@@ -41,7 +41,7 @@
     "@babel/preset-env": "7.8.7",
     "@glennsl/bs-jest": "0.4.10",
     "babel-jest": "25.1.0",
-    "bs-platform": "7.2.1",
+    "bs-platform": "7.2.2",
     "jest": "25.1.0",
     "js-beautify": "1.10.3",
     "reason-react": "0.7.0",
