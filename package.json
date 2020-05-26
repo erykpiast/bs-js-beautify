@@ -35,6 +35,8 @@
   "homepage": "https://github.com/erykpiast/bs-js-beautify#readme",
   "peerDependencies": {
     "js-beautify": "1.x.x",
+    "react": "16.x.x",
+    "react-dom": "16.x.x",
     "reason-react": "0.8.x"
   },
   "devDependencies": {
@@ -44,6 +46,8 @@
     "bs-platform": "7.3.2",
     "jest": "25.1.0",
     "js-beautify": "1.11.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "reason-react": "0.8.0",
     "standard-version": "8.0.0"
   }
