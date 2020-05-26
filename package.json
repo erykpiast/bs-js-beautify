@@ -1,6 +1,6 @@
 {
   "name": "bs-js-beautify",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "BuckleScript bindings for js-beautify library",
   "main": "src/JsBeautify.bs.js",
   "files": [
